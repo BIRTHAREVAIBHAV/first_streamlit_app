@@ -23,4 +23,4 @@ streamlit.header("Fruityvice Fruit Advice!");
 
 import requests
 frutyvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.test(frutyvice_response.json());
+streamlit.text(frutyvice_response.json());
